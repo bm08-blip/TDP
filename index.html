@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trata de Personas - Información Completa</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            line-height: 1.6;
+        }
+
+        header{
+            background: linear-gradient(to right, #8B0000, #b30000);
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav{
+            background-color: #222;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a{
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            color: #ff4d4d;
+        }
+
+        section{
+            padding: 30px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+        }
+
+        h2{
+            color: #8B0000;
+        }
+
+        h3{
+            color: #b30000;
+        }
+
+        img{
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        ul{
+            margin-left: 20px;
+        }
+
+        button{
+            background-color: #8B0000;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button:hover{
+            background-color: #cc0000;
+        }
+
+        .estadisticas{
+            background-color: #ffe6e6;
+            padding: 15px;
+            border-left: 5px solid red;
+            margin-top: 15px;
+        }
+
+        footer{
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>La Trata de Personas</h1>
+    <p>Información detallada, prevención, leyes y casos reales</p>
+</header>
+
+<nav>
+    <a href="#que-es">¿Qué es?</a>
+    <a href="#tipos">Tipos</a>
+    <a href="#senales">Señales</a>
+    <a href="#prevencion">Prevención</a>
+    <a href="#ley">Ley que protege</a>
+    <a href="#casos">Casos Reales</a>
+</nav>
+
+<section id="que-es">
+    <h2>¿Qué es la trata de personas?</h2>
+    <p>
+        La trata de personas es un delito que consiste en captar, transportar o retener
+        a una persona mediante engaño, amenazas o violencia con fines de explotación.
+        Es considerada una forma moderna de esclavitud.
+    </p>
+
+    <p>
+        Las víctimas pueden ser mujeres, hombres, niñas y niños. Los tratantes suelen
+        usar falsas promesas de empleo, estudios, relaciones amorosas o mejores
+        condiciones de vida.
+    </p>
+
+    <div class="estadisticas">
+        <strong>Datos importantes:</strong>
+        <ul>
+            <li>Es uno de los delitos más lucrativos del mundo.</li>
+            <li>La mayoría de las víctimas son mujeres y menores de edad.</li>
+            <li>Ocurre tanto en zonas rurales como urbanas.</li>
+        </ul>
+    </div>
+
+    <img src="tdp.jpg" alt="Imagen informativa">
+</section>
+
+<section id="tipos">
+    <h2>Tipos de trata de personas</h2>
+
+    <h3>Explotación sexual</h3>
+    <p>Obligan a la víctima a realizar actos sexuales sin su consentimiento.</p>
+
+    <h3>Trabajo forzado</h3>
+    <p>Personas obligadas a trabajar sin salario justo o bajo amenazas.</p>
+
+    <h3>Explotación infantil</h3>
+    <p>Niños utilizados para mendicidad, trabajos peligrosos o actividades ilícitas.</p>
+
+    <h3>Matrimonio forzado</h3>
+    <p>Personas obligadas a casarse sin su voluntad.</p>
+
+    <h3>Tráfico de órganos</h3>
+    <p>Extracción ilegal de órganos para su venta.</p>
+
+    <img src="tipos.png" alt="Tipos de trata">
+</section>
+
+<section id="senales">
+    <h2>Señales de alerta</h2>
+
+    <ul>
+        <li>No pueden hablar libremente.</li>
+        <li>Alguien controla sus documentos.</li>
+        <li>Tienen miedo constante.</li>
+        <li>Trabajan largas jornadas sin descanso.</li>
+        <li>No conocen el lugar donde están.</li>
+    </ul>
+
+    <img src="señales.jpg" alt="Señales de alerta">
+</section>
+
+<section id="prevencion">
+    <h2>¿Cómo prevenir la trata?</h2>
+
+    <ul>
+        <li>Verificar ofertas de trabajo.</li>
+        <li>No enviar documentos personales a desconocidos.</li>
+        <li>Informar a familiares antes de viajar.</li>
+        <li>Configurar privacidad en redes sociales.</li>
+        <li>Denunciar situaciones sospechosas.</li>
+    </ul>
+
+    <h3>Números de ayuda en México</h3>
+    <p><strong>📞 Emergencias:</strong> 911</p>
+    <p><strong>📞 Denuncia anónima:</strong> 089</p>
+    <p><strong>📞 Línea Nacional contra la Trata:</strong> 800 5533 000</p>
+
+    <p>Estos números están disponibles las 24 horas del día.</p>
+
+    <button onclick="mostrarMensaje()">Mensaje importante</button>
+    <p id="mensaje"></p>
+
+    <img src="prevenir.png" alt="Prevención">
+</section>
+
+<section id="ley">
+    <h2>Ley que protege contra la trata</h2>
+
+    <p>
+        En México existe la <strong>Ley General para Prevenir, Sancionar y Erradicar 
+        los Delitos en Materia de Trata de Personas</strong>, publicada en 2012.
+    </p>
+
+    <p>
+        Esta ley protege a las víctimas, establece sanciones severas para los responsables
+        y obliga a las autoridades a prevenir y combatir este delito.
+    </p>
+
+    <ul>
+        <li>Protección integral a víctimas.</li>
+        <li>Prisión para responsables.</li>
+        <li>Coordinación entre autoridades.</li>
+        <li>Campañas de prevención.</li>
+    </ul>
+
+    <img src="ley.jpg" alt="Ley contra la trata">
+</section>
+
+<section id="casos">
+    <h2>Casos Reales</h2>
+
+    <h3>México</h3>
+    <p>Redes criminales han engañado jóvenes con falsas ofertas de trabajo.</p>
+
+    <h3>Argentina</h3>
+    <p>Organizaciones explotaban mujeres en centros clandestinos.</p>
+
+    <h3>Europa</h3>
+    <p>Migrantes obligados a trabajar en condiciones inhumanas.</p>
+
+    <h3>Asia</h3>
+    <p>Menores explotados en fábricas ilegales.</p>
+
+    <img src="casos.jpg" alt="Casos reales">
+</section>
+
+<footer>
+    <p>Victor Jahir Sanchez Santiago | Albertico Armando Peña Rodriguez</p>
+</footer>
+
+<script>
+    function mostrarMensaje(){
+        document.getElementById("mensaje").innerHTML =
+        "La trata de personas es un delito grave. Si detectas un caso, denúncialo inmediatamente. Tu acción puede salvar vidas.";
+    }
+</script>
+
+</body>
+</html>
